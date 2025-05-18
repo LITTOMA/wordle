@@ -1,0 +1,282 @@
+html, body {
+    height: 100vh; /* Use viewport height for full screen */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling on body/html */
+    font-family: Arial, sans-serif;
+    display: flex; /* Use flex on body to center game-container if needed */
+    justify-content: center; /* Center game-container horizontally */
+    align-items: center; /* Center game-container vertically */
+    background-color: #f7f7f7;
+    color: #333;
+    box-sizing: border-box;
+}
+
+body {
+    flex-direction: column; 
+    align-items: center; /* Body itself still aligns its content (the game-container) */
+    padding: 5px; 
+    box-sizing: border-box; 
+    width: 100%; /* Ensure body takes full width */
+}
+
+.game-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%; 
+    max-width: 500px; 
+    height: calc(100vh - 20px); /* Attempt to fill viewport height minus body padding */
+    max-height: 900px; /* Optional: max height for very tall, narrow screens */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space between elements */
+    box-sizing: border-box;
+}
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 5px; /* Further reduce bottom margin */
+    font-size: clamp(1.5em, 4vh, 2em); /* Font size based on viewport height */
+    color: #555;
+    flex-shrink: 0; /* Prevent header from shrinking too much */
+}
+
+#game-board {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 5px;
+    width: 90%; 
+    max-width: 350px; 
+    margin: 5px auto; /* Reduce margin */
+    flex-grow: 1; /* Allow game board to take available vertical space */
+    min-height: 0; /* Necessary for flex-grow to work correctly in a flex column */
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    min-height: 0; /* Allow rows to shrink if necessary */
+}
+
+.tile {
+    aspect-ratio: 1 / 1; 
+    border: 2px solid #d3d6da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(0.8em, 3vh, 1.5em); /* Font size relative to viewport height for tiles */
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #000;
+    min-width: 0; /* Allow tiles to shrink */
+}
+
+.tile.correct {
+    background-color: #6aaa64; /* Green */
+    color: white;
+    border-color: #6aaa64;
+}
+
+.tile.present {
+    background-color: #c9b458; /* Yellow */
+    color: white;
+    border-color: #c9b458;
+}
+
+.tile.absent {
+    background-color: #787c7e; /* Gray */
+    color: white;
+    border-color: #787c7e;
+}
+
+#keyboard-container {
+    margin-top: 10px; /* Adjust margin */
+    width: 100%;
+    flex-shrink: 0; /* Prevent keyboard from shrinking too much */
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px; /* Reduce margin */
+    width: 100%; /* Ensure rows take full width */
+}
+
+.keyboard-row button {
+    font-family: inherit;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 1.5px; 
+    height: clamp(35px, 6vh, 50px); /* Responsive height for keys */
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #d3d6da;
+    color: #000;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    flex-grow: 1; 
+    flex-basis: 0; 
+    font-size: clamp(0.7em, 2.5vh, 1em); /* Responsive font size for keys */
+    min-width: 0; /* Allow buttons to shrink */
+    -webkit-tap-highlight-color: transparent; /* Remove tap highlight */
+    touch-action: manipulation; /* Prevent double-tap to zoom and other default actions */
+}
+
+.keyboard-row button.key-large {
+    flex-grow: 1.5; 
+}
+
+/* Styling for Backspace icon handling */
+.key-backspace .key-icon {
+    font-size: 1.5em; /* Adjust icon size as needed */
+    display: inline; /* Always show icon */
+}
+
+.key-backspace .key-text {
+    display: none; /* Always hide text */
+}
+
+/* Media query for smaller screens to switch Backspace to icon - REMOVED */
+/* @media (max-width: 480px) { ... } */
+
+.keyboard-row button:hover {
+    background-color: #b5b9bc;
+}
+
+.keyboard-row button.correct {
+    background-color: #6aaa64;
+    color: white;
+}
+
+.keyboard-row button.present {
+    background-color: #c9b458;
+    color: white;
+}
+
+.keyboard-row button.absent {
+    background-color: #787c7e;
+    color: white;
+    opacity: 0.7;
+    pointer-events: none; /* Make disabled/absent buttons not interactive */
+}
+
+#message-area {
+    margin-top: 15px;
+    font-size: 1.2em;
+    min-height: 25px;
+}
+
+#suggestion-area {
+    margin-top: 20px;
+}
+
+#suggestion-input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+#suggestions {
+    margin-top: 10px;
+    min-height: 20px;
+}
+
+#suggestions button {
+    background-color: #eef;
+    border: 1px solid #ccd;
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#suggestions button:hover {
+    background-color: #ddf;
+}
+
+/* Restart Button Styling */
+#restart-button {
+    display: none; /* Initially hidden, controlled by JS or inline style */
+    margin: 10px auto 5px auto; /* Adjust margin */
+    padding: clamp(8px, 2vh, 12px) clamp(15px, 4vw, 25px);
+    font-size: clamp(0.8em, 2.5vh, 1.1em);
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex-shrink: 0;
+}
+
+#restart-button:hover {
+    background-color: #0056b3;
+}
+
+/* Custom Submit Button Styling */
+#custom-submit-button {
+    font-family: inherit;
+    font-weight: bold;
+    height: clamp(40px, 7vh, 50px); /* Responsive height */
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #6aaa64; 
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+    width: 90%; 
+    max-width: 350px; 
+    margin: 10px auto 5px auto; /* Adjust margin */
+    font-size: clamp(0.9em, 3vh, 1.2em); 
+    display: block; 
+    flex-shrink: 0; /* Prevent button from shrinking too much */
+    -webkit-tap-highlight-color: transparent; /* Remove tap highlight */
+    touch-action: manipulation; /* Prevent double-tap to zoom */
+}
+
+#custom-submit-button:hover {
+    background-color: #5a9a54;
+}
+
+/* Animation for tile flip */
+.tile.pop {
+  animation: pop 0.1s ease-in-out;
+}
+
+@keyframes pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.tile.flip {
+    animation: flip 0.5s ease forwards;
+}
+
+@keyframes flip {
+    0% {
+        transform: rotateX(0deg);
+        background-color: #fff;
+        border-color: #d3d6da;
+        color: #000;
+    }
+    50% {
+        transform: rotateX(90deg);
+        background-color: #fff;
+        border-color: #d3d6da;
+        color: #000;
+    }
+    100% {
+        transform: rotateX(0deg);
+    }
+} 

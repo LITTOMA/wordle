@@ -1,0 +1,327 @@
+[
+  {
+    "word": "apple",
+    "definition_zh": "苹果",
+    "pos": "n."
+  },
+  {
+    "word": "table",
+    "definition_zh": "桌子；表格",
+    "pos": "n."
+  },
+  {
+    "word": "chair",
+    "definition_zh": "椅子",
+    "pos": "n."
+  },
+  {
+    "word": "house",
+    "definition_zh": "房子；住宅",
+    "pos": "n."
+  },
+  {
+    "word": "mouse",
+    "definition_zh": "老鼠；鼠标",
+    "pos": "n."
+  },
+  {
+    "word": "watch",
+    "definition_zh": "观看；手表",
+    "pos": "v./n."
+  },
+  {
+    "word": "earth",
+    "definition_zh": "地球；泥土",
+    "pos": "n."
+  },
+  {
+    "word": "bread",
+    "definition_zh": "面包",
+    "pos": "n."
+  },
+  {
+    "word": "water",
+    "definition_zh": "水；浇水",
+    "pos": "n./v."
+  },
+  {
+    "word": "light",
+    "definition_zh": "光；灯；轻的",
+    "pos": "n./adj./v."
+  },
+  {
+    "word": "green",
+    "definition_zh": "绿色；环保的",
+    "pos": "adj./n."
+  },
+  {
+    "word": "happy",
+    "definition_zh": "快乐的；幸福的",
+    "pos": "adj."
+  },
+  {
+    "word": "study",
+    "definition_zh": "学习；研究",
+    "pos": "v./n."
+  },
+  {
+    "word": "plant",
+    "definition_zh": "植物；种植",
+    "pos": "n./v."
+  },
+  {
+    "word": "dream",
+    "definition_zh": "梦想；做梦",
+    "pos": "n./v."
+  },
+  {
+    "word": "grape",
+    "definition_zh": "葡萄",
+    "pos": "n."
+  },
+  {
+    "word": "fruit",
+    "definition_zh": "水果；果实",
+    "pos": "n."
+  },
+  {
+    "word": "sugar",
+    "definition_zh": "糖；甜的",
+    "pos": "n./adj."
+  },
+  {
+    "word": "music",
+    "definition_zh": "音乐",
+    "pos": "n."
+  },
+  {
+    "word": "sound",
+    "definition_zh": "声音；健全的",
+    "pos": "n./adj./v."
+  },
+  {
+    "word": "voice",
+    "definition_zh": "声音；嗓音；表达",
+    "pos": "n./v."
+  },
+  {
+    "word": "field",
+    "definition_zh": "田地；领域",
+    "pos": "n."
+  },
+  {
+    "word": "world",
+    "definition_zh": "世界；全球",
+    "pos": "n."
+  },
+  {
+    "word": "heart",
+    "definition_zh": "心脏；心",
+    "pos": "n."
+  },
+  {
+    "word": "brain",
+    "definition_zh": "大脑；智力",
+    "pos": "n."
+  },
+  {
+    "word": "stone",
+    "definition_zh": "石头；宝石",
+    "pos": "n."
+  },
+  {
+    "word": "river",
+    "definition_zh": "河流；江",
+    "pos": "n."
+  },
+  {
+    "word": "ocean",
+    "definition_zh": "海洋；大量",
+    "pos": "n."
+  },
+  {
+    "word": "board",
+    "definition_zh": "木板；董事会；上船",
+    "pos": "n./v."
+  },
+  {
+    "word": "class",
+    "definition_zh": "班级；阶级；课程",
+    "pos": "n."
+  },
+  {
+    "word": "paper",
+    "definition_zh": "纸；论文；报纸",
+    "pos": "n."
+  },
+  {
+    "word": "story",
+    "definition_zh": "故事；小说；楼层",
+    "pos": "n."
+  },
+  {
+    "word": "night",
+    "definition_zh": "夜晚；夜间",
+    "pos": "n."
+  },
+  {
+    "word": "month",
+    "definition_zh": "月；月份",
+    "pos": "n."
+  },
+  {
+    "word": "money",
+    "definition_zh": "钱；金钱",
+    "pos": "n."
+  },
+  {
+    "word": "order",
+    "definition_zh": "顺序；命令；订购",
+    "pos": "n./v."
+  },
+  {
+    "word": "group",
+    "definition_zh": "组；群体；团体",
+    "pos": "n./v."
+  },
+  {
+    "word": "space",
+    "definition_zh": "空间；宇宙；距离",
+    "pos": "n."
+  },
+  {
+    "word": "power",
+    "definition_zh": "力量；电力；权力",
+    "pos": "n."
+  },
+  {
+    "word": "court",
+    "definition_zh": "法院；球场；宫廷",
+    "pos": "n."
+  },
+  {
+    "word": "level",
+    "definition_zh": "水平；级别；平的",
+    "pos": "n./adj./v."
+  },
+  {
+    "word": "child",
+    "definition_zh": "孩子；儿童",
+    "pos": "n."
+  },
+  {
+    "word": "adult",
+    "definition_zh": "成年人；成人的",
+    "pos": "n./adj."
+  },
+  {
+    "word": "woman",
+    "definition_zh": "女人；女性",
+    "pos": "n."
+  },
+  {
+    "word": "human",
+    "definition_zh": "人类；人的",
+    "pos": "n./adj."
+  },
+  {
+    "word": "party",
+    "definition_zh": "聚会；派对；政党",
+    "pos": "n."
+  },
+  {
+    "word": "state",
+    "definition_zh": "状态；州；国家",
+    "pos": "n./v."
+  },
+  {
+    "word": "sense",
+    "definition_zh": "感觉；意义；理智",
+    "pos": "n./v."
+  },
+  {
+    "word": "force",
+    "definition_zh": "力量；强迫；军队",
+    "pos": "n./v."
+  },
+  {
+    "word": "death",
+    "definition_zh": "死亡；死",
+    "pos": "n."
+  },
+  {
+    "word": "value",
+    "definition_zh": "价值；重视",
+    "pos": "n./v."
+  },
+  {
+    "word": "union",
+    "definition_zh": "联盟；工会；结合",
+    "pos": "n."
+  },
+  {
+    "word": "image",
+    "definition_zh": "图像；形象；印象",
+    "pos": "n."
+  },
+  {
+    "word": "album",
+    "definition_zh": "相册；专辑",
+    "pos": "n."
+  },
+  {
+    "word": "agent",
+    "definition_zh": "代理人；经纪人；间谍",
+    "pos": "n."
+  },
+  {
+    "word": "award",
+    "definition_zh": "奖励；奖品；授予",
+    "pos": "n./v."
+  },
+  {
+    "word": "blood",
+    "definition_zh": "血；血液；血统",
+    "pos": "n."
+  },
+  {
+    "word": "brick",
+    "definition_zh": "砖；砖块",
+    "pos": "n."
+  },
+  {
+    "word": "cable",
+    "definition_zh": "电缆；缆绳；发电报",
+    "pos": "n./v."
+  },
+  {
+    "word": "chain",
+    "definition_zh": "链条；连锁；束缚",
+    "pos": "n./v."
+  },
+  {
+    "word": "clock",
+    "definition_zh": "时钟；计时",
+    "pos": "n./v."
+  },
+  {
+    "word": "dance",
+    "definition_zh": "跳舞；舞蹈",
+    "pos": "n./v."
+  },
+  {
+    "word": "earth",
+    "definition_zh": "地球；泥土",
+    "pos": "n."
+  },
+  {
+    "word": "faith",
+    "definition_zh": "信仰；信任；忠诚",
+    "pos": "n."
+  },
+  {
+    "word": "flame",
+    "definition_zh": "火焰；热情",
+    "pos": "n./v."
+  }
+] 
