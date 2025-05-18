@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>Wordle 游戏</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -41,6 +41,7 @@
                 <button data-key="l">L</button>
             </div>
             <div class="keyboard-row">
+                <button id="custom-submit-button" data-key="enter" class="key-large">提交</button>
                 <button data-key="z">Z</button>
                 <button data-key="x">X</button>
                 <button data-key="c">C</button>
@@ -48,14 +49,33 @@
                 <button data-key="b">B</button>
                 <button data-key="n">N</button>
                 <button data-key="m">M</button>
-                <button data-key="backspace" class="key-large key-backspace">
-                    <span class="key-text" style="display:none;">Backspace</span>
-                    <span class="key-icon">←</span>
-                </button>
+                <button data-key="backspace" class="key-large key-backspace">←</button>
             </div>
         </div>
-        <button id="custom-submit-button" data-key="enter" class="key-large">提交</button>
     </div>
     <script src="script.js"></script>
+    <script>
+        // 针对iOS Safari视口高度问题的修复
+        function setViewportHeight() {
+            // 设置CSS变量为实际视口高度
+            let vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', `${vh}px`);
+        }
+        
+        // 在页面加载和调整大小时设置高度
+        window.addEventListener('load', setViewportHeight);
+        window.addEventListener('resize', setViewportHeight);
+        window.addEventListener('orientationchange', setViewportHeight);
+        
+        // 处理iOS Safari中的地址栏显示/隐藏事件
+        let lastHeight = window.innerHeight;
+        window.addEventListener('scroll', function() {
+            const newHeight = window.innerHeight;
+            if (newHeight !== lastHeight) {
+                lastHeight = newHeight;
+                setViewportHeight();
+            }
+        });
+    </script>
 </body>
 </html> 

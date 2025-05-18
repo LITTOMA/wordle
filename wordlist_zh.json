@@ -1,17 +1,972 @@
 [
   {
+    "word": "about",
+    "definition_zh": "关于；大约；在...周围",
+    "pos": "prep./adv."
+  },
+  {
+    "word": "above",
+    "definition_zh": "在...上面；超过；上述的",
+    "pos": "prep./adv./adj."
+  },
+  {
+    "word": "abuse",
+    "definition_zh": "滥用；虐待；辱骂",
+    "pos": "n./v."
+  },
+  {
+    "word": "actor",
+    "definition_zh": "演员",
+    "pos": "n."
+  },
+  {
+    "word": "adapt",
+    "definition_zh": "适应；改编",
+    "pos": "v."
+  },
+  {
+    "word": "admit",
+    "definition_zh": "承认；准许进入",
+    "pos": "v."
+  },
+  {
+    "word": "adopt",
+    "definition_zh": "采用；收养；采纳",
+    "pos": "v."
+  },
+  {
+    "word": "adult",
+    "definition_zh": "成年人；成年的",
+    "pos": "n./adj."
+  },
+  {
+    "word": "after",
+    "definition_zh": "在...之后；以后；后来",
+    "pos": "prep./adv./conj."
+  },
+  {
+    "word": "again",
+    "definition_zh": "再次；又",
+    "pos": "adv."
+  },
+  {
+    "word": "agent",
+    "definition_zh": "代理人；代理商；特工",
+    "pos": "n."
+  },
+  {
+    "word": "agree",
+    "definition_zh": "同意；赞同",
+    "pos": "v."
+  },
+  {
+    "word": "ahead",
+    "definition_zh": "向前；提前；领先",
+    "pos": "adv./adj."
+  },
+  {
+    "word": "album",
+    "definition_zh": "专辑；相册；集邮册",
+    "pos": "n."
+  },
+  {
+    "word": "alive",
+    "definition_zh": "活着的；有活力的",
+    "pos": "adj."
+  },
+  {
+    "word": "allow",
+    "definition_zh": "允许；准许",
+    "pos": "v."
+  },
+  {
+    "word": "alone",
+    "definition_zh": "独自的；单独的",
+    "pos": "adj./adv."
+  },
+  {
+    "word": "along",
+    "definition_zh": "沿着；向前；一起",
+    "pos": "prep./adv."
+  },
+  {
+    "word": "alter",
+    "definition_zh": "改变；修改",
+    "pos": "v."
+  },
+  {
+    "word": "among",
+    "definition_zh": "在...之中；在...之间",
+    "pos": "prep."
+  },
+  {
+    "word": "anger",
+    "definition_zh": "愤怒，生气",
+    "pos": "n./v."
+  },
+  {
+    "word": "angle",
+    "definition_zh": "角度；角",
+    "pos": "n."
+  },
+  {
+    "word": "angry",
+    "definition_zh": "愤怒的，生气的",
+    "pos": "adj."
+  },
+  {
+    "word": "apart",
+    "definition_zh": "分开；分离；相距",
+    "pos": "adv./adj."
+  },
+  {
     "word": "apple",
     "definition_zh": "苹果",
     "pos": "n."
   },
   {
-    "word": "table",
-    "definition_zh": "桌子；表格",
+    "word": "apply",
+    "definition_zh": "申请；应用；涂",
+    "pos": "v."
+  },
+  {
+    "word": "argue",
+    "definition_zh": "争论；争吵；主张",
+    "pos": "v."
+  },
+  {
+    "word": "arise",
+    "definition_zh": "出现；升起；由...引起",
+    "pos": "v."
+  },
+  {
+    "word": "armed",
+    "definition_zh": "武装的；有武器的",
+    "pos": "adj."
+  },
+  {
+    "word": "asian",
+    "definition_zh": "亚洲的；亚洲人",
+    "pos": "adj./n."
+  },
+  {
+    "word": "aside",
+    "definition_zh": "在旁边；到一边；撇开",
+    "pos": "adv./n."
+  },
+  {
+    "word": "asset",
+    "definition_zh": "资产；财产；有价值的人或物",
     "pos": "n."
+  },
+  {
+    "word": "avoid",
+    "definition_zh": "避免；避开",
+    "pos": "v."
+  },
+  {
+    "word": "award",
+    "definition_zh": "奖励；奖品；奖",
+    "pos": "n./v."
+  },
+  {
+    "word": "aware",
+    "definition_zh": "知道的；意识到的",
+    "pos": "adj."
+  },
+  {
+    "word": "awful",
+    "definition_zh": "糟糕的；可怕的；极坏的",
+    "pos": "adj."
+  },
+  {
+    "word": "badly",
+    "definition_zh": "糟糕地；严重地；非常",
+    "pos": "adv."
+  },
+  {
+    "word": "basic",
+    "definition_zh": "基本的；基础的",
+    "pos": "adj."
+  },
+  {
+    "word": "basis",
+    "definition_zh": "基础；根据；主要成分",
+    "pos": "n."
+  },
+  {
+    "word": "beach",
+    "definition_zh": "海滩",
+    "pos": "n."
+  },
+  {
+    "word": "begin",
+    "definition_zh": "开始",
+    "pos": "v."
+  },
+  {
+    "word": "being",
+    "definition_zh": "存在；生物；本质",
+    "pos": "n./v."
+  },
+  {
+    "word": "below",
+    "definition_zh": "在...下面；低于",
+    "pos": "prep./adv."
+  },
+  {
+    "word": "bench",
+    "definition_zh": "长凳；工作台；法官席",
+    "pos": "n."
+  },
+  {
+    "word": "bible",
+    "definition_zh": "圣经",
+    "pos": "n."
+  },
+  {
+    "word": "birth",
+    "definition_zh": "出生；分娩",
+    "pos": "n."
+  },
+  {
+    "word": "black",
+    "definition_zh": "黑色",
+    "pos": "n./adj."
+  },
+  {
+    "word": "blade",
+    "definition_zh": "刀刃；刀片；叶片",
+    "pos": "n."
+  },
+  {
+    "word": "blame",
+    "definition_zh": "责备；归咎于",
+    "pos": "v./n."
+  },
+  {
+    "word": "blind",
+    "definition_zh": "失明的；盲目的；窗帘",
+    "pos": "adj./n."
+  },
+  {
+    "word": "block",
+    "definition_zh": "块；街区；障碍物；阻塞",
+    "pos": "n./v."
+  },
+  {
+    "word": "blood",
+    "definition_zh": "血，血液",
+    "pos": "n."
+  },
+  {
+    "word": "board",
+    "definition_zh": "板；董事会；登机；膳食",
+    "pos": "n./v."
+  },
+  {
+    "word": "brain",
+    "definition_zh": "脑；头脑；智力",
+    "pos": "n."
+  },
+  {
+    "word": "brand",
+    "definition_zh": "品牌；烙印",
+    "pos": "n./v."
+  },
+  {
+    "word": "bread",
+    "definition_zh": "面包",
+    "pos": "n."
+  },
+  {
+    "word": "break",
+    "definition_zh": "打破；中断；休息",
+    "pos": "v./n."
+  },
+  {
+    "word": "brick",
+    "definition_zh": "砖；砖块",
+    "pos": "n."
+  },
+  {
+    "word": "brief",
+    "definition_zh": "简短的；短暂的；简洁的",
+    "pos": "adj./n."
+  },
+  {
+    "word": "bring",
+    "definition_zh": "带来；拿来",
+    "pos": "v."
+  },
+  {
+    "word": "broad",
+    "definition_zh": "宽的；广泛的",
+    "pos": "adj."
+  },
+  {
+    "word": "brown",
+    "definition_zh": "棕色；褐色的",
+    "pos": "n./adj."
+  },
+  {
+    "word": "brush",
+    "definition_zh": "刷子；刷；画笔",
+    "pos": "n./v."
+  },
+  {
+    "word": "build",
+    "definition_zh": "建造；建立",
+    "pos": "v."
+  },
+  {
+    "word": "bunch",
+    "definition_zh": "束；串；大量",
+    "pos": "n./v."
+  },
+  {
+    "word": "buyer",
+    "definition_zh": "买方；购买者",
+    "pos": "n."
+  },
+  {
+    "word": "cabin",
+    "definition_zh": "小屋；船舱；机舱",
+    "pos": "n."
+  },
+  {
+    "word": "cable",
+    "definition_zh": "电缆；缆绳；有线电视",
+    "pos": "n."
+  },
+  {
+    "word": "carry",
+    "definition_zh": "携带；搬运；运送",
+    "pos": "v."
+  },
+  {
+    "word": "catch",
+    "definition_zh": "抓住；捕获；赶上；理解",
+    "pos": "v./n."
+  },
+  {
+    "word": "cause",
+    "definition_zh": "原因；导致",
+    "pos": "n./v."
+  },
+  {
+    "word": "chain",
+    "definition_zh": "链条；连锁；一系列",
+    "pos": "n./v."
   },
   {
     "word": "chair",
     "definition_zh": "椅子",
+    "pos": "n."
+  },
+  {
+    "word": "chart",
+    "definition_zh": "图表；航海图；排行榜",
+    "pos": "n./v."
+  },
+  {
+    "word": "chase",
+    "definition_zh": "追逐；追赶",
+    "pos": "v./n."
+  },
+  {
+    "word": "cheap",
+    "definition_zh": "便宜的；廉价的",
+    "pos": "adj."
+  },
+  {
+    "word": "check",
+    "definition_zh": "检查；支票；核对；制止",
+    "pos": "v./n."
+  },
+  {
+    "word": "cheek",
+    "definition_zh": "脸颊",
+    "pos": "n."
+  },
+  {
+    "word": "chest",
+    "definition_zh": "胸部；箱子",
+    "pos": "n."
+  },
+  {
+    "word": "chief",
+    "definition_zh": "首领；主要的",
+    "pos": "n./adj."
+  },
+  {
+    "word": "child",
+    "definition_zh": "孩子；儿童",
+    "pos": "n."
+  },
+  {
+    "word": "civil",
+    "definition_zh": "公民的；民用的；文明的",
+    "pos": "adj."
+  },
+  {
+    "word": "claim",
+    "definition_zh": "声称；索取；主张",
+    "pos": "v./n."
+  },
+  {
+    "word": "class",
+    "definition_zh": "班级；阶级；种类；课",
+    "pos": "n."
+  },
+  {
+    "word": "clean",
+    "definition_zh": "清洁的；干净的",
+    "pos": "adj./v."
+  },
+  {
+    "word": "clear",
+    "definition_zh": "清晰的；清澈的；明确的",
+    "pos": "adj./v."
+  },
+  {
+    "word": "climb",
+    "definition_zh": "爬；攀登；上升",
+    "pos": "v./n."
+  },
+  {
+    "word": "clock",
+    "definition_zh": "时钟；计时器",
+    "pos": "n."
+  },
+  {
+    "word": "close",
+    "definition_zh": "关闭；接近的；亲密的",
+    "pos": "v./adj."
+  },
+  {
+    "word": "cloud",
+    "definition_zh": "云",
+    "pos": "n."
+  },
+  {
+    "word": "coach",
+    "definition_zh": "教练；长途汽车",
+    "pos": "n./v."
+  },
+  {
+    "word": "coast",
+    "definition_zh": "海岸；沿海地区",
+    "pos": "n."
+  },
+  {
+    "word": "color",
+    "definition_zh": "颜色；色彩",
+    "pos": "n."
+  },
+  {
+    "word": "couch",
+    "definition_zh": "长沙发；睡椅",
+    "pos": "n."
+  },
+  {
+    "word": "could",
+    "definition_zh": "可以；能够；可能",
+    "pos": "modal v."
+  },
+  {
+    "word": "count",
+    "definition_zh": "计数；认为；总数",
+    "pos": "v./n."
+  },
+  {
+    "word": "court",
+    "definition_zh": "法庭；法院；球场；宫廷",
+    "pos": "n./v."
+  },
+  {
+    "word": "cover",
+    "definition_zh": "覆盖；盖子；封面；掩护",
+    "pos": "v./n."
+  },
+  {
+    "word": "crack",
+    "definition_zh": "裂缝；破裂；破解",
+    "pos": "n./v."
+  },
+  {
+    "word": "craft",
+    "definition_zh": "工艺；手艺；飞行器；技巧",
+    "pos": "n./v."
+  },
+  {
+    "word": "crash",
+    "definition_zh": "碰撞；崩溃；暴跌",
+    "pos": "v./n."
+  },
+  {
+    "word": "crazy",
+    "definition_zh": "疯狂的；狂热的；不理智的",
+    "pos": "adj."
+  },
+  {
+    "word": "cream",
+    "definition_zh": "奶油；乳霜",
+    "pos": "n."
+  },
+  {
+    "word": "crime",
+    "definition_zh": "犯罪；罪行",
+    "pos": "n."
+  },
+  {
+    "word": "cross",
+    "definition_zh": "十字；交叉；穿过",
+    "pos": "n./v."
+  },
+  {
+    "word": "crowd",
+    "definition_zh": "人群；群众",
+    "pos": "n."
+  },
+  {
+    "word": "cycle",
+    "definition_zh": "周期；循环；自行车",
+    "pos": "n./v."
+  },
+  {
+    "word": "daily",
+    "definition_zh": "每日的；日常的",
+    "pos": "adj."
+  },
+  {
+    "word": "dance",
+    "definition_zh": "跳舞；舞蹈",
+    "pos": "v./n."
+  },
+  {
+    "word": "death",
+    "definition_zh": "死亡",
+    "pos": "n."
+  },
+  {
+    "word": "delay",
+    "definition_zh": "延迟；耽搁",
+    "pos": "n./v."
+  },
+  {
+    "word": "depth",
+    "definition_zh": "深度；深处",
+    "pos": "n."
+  },
+  {
+    "word": "dirty",
+    "definition_zh": "肮脏的；下流的；卑鄙的",
+    "pos": "adj."
+  },
+  {
+    "word": "doubt",
+    "definition_zh": "怀疑；疑惑",
+    "pos": "n./v."
+  },
+  {
+    "word": "dozen",
+    "definition_zh": "十二个，一打",
+    "pos": "n."
+  },
+  {
+    "word": "draft",
+    "definition_zh": "草稿；草案；汇票；通风",
+    "pos": "n./v."
+  },
+  {
+    "word": "drama",
+    "definition_zh": "戏剧；戏剧性事件",
+    "pos": "n."
+  },
+  {
+    "word": "dream",
+    "definition_zh": "梦；梦想",
+    "pos": "n./v."
+  },
+  {
+    "word": "dress",
+    "definition_zh": "连衣裙；穿衣",
+    "pos": "n./v."
+  },
+  {
+    "word": "drink",
+    "definition_zh": "喝；饮料",
+    "pos": "v./n."
+  },
+  {
+    "word": "drive",
+    "definition_zh": "驾驶；驱赶；推动",
+    "pos": "v./n."
+  },
+  {
+    "word": "eager",
+    "definition_zh": "渴望的；热切的",
+    "pos": "adj."
+  },
+  {
+    "word": "early",
+    "definition_zh": "早的；早期的",
+    "pos": "adj./adv."
+  },
+  {
+    "word": "earth",
+    "definition_zh": "地球；泥土",
+    "pos": "n."
+  },
+  {
+    "word": "eight",
+    "definition_zh": "八",
+    "pos": "n."
+  },
+  {
+    "word": "elect",
+    "definition_zh": "选举；选择",
+    "pos": "v."
+  },
+  {
+    "word": "elite",
+    "definition_zh": "精英；上层人士",
+    "pos": "n."
+  },
+  {
+    "word": "empty",
+    "definition_zh": "空的；空虚的；无意义的",
+    "pos": "adj."
+  },
+  {
+    "word": "enemy",
+    "definition_zh": "敌人；仇敌",
+    "pos": "n."
+  },
+  {
+    "word": "enjoy",
+    "definition_zh": "享受；喜欢",
+    "pos": "v."
+  },
+  {
+    "word": "enter",
+    "definition_zh": "进入；输入",
+    "pos": "v."
+  },
+  {
+    "word": "entry",
+    "definition_zh": "进入；入口；条目；登记",
+    "pos": "n./v."
+  },
+  {
+    "word": "equal",
+    "definition_zh": "相等的；平等的",
+    "pos": "adj./v."
+  },
+  {
+    "word": "error",
+    "definition_zh": "错误；差错",
+    "pos": "n."
+  },
+  {
+    "word": "essay",
+    "definition_zh": "短文；散文；论说文",
+    "pos": "n."
+  },
+  {
+    "word": "event",
+    "definition_zh": "事件；活动；结果",
+    "pos": "n."
+  },
+  {
+    "word": "every",
+    "definition_zh": "每个；每一",
+    "pos": "adj."
+  },
+  {
+    "word": "exact",
+    "definition_zh": "精确的；准确的",
+    "pos": "adj."
+  },
+  {
+    "word": "exist",
+    "definition_zh": "存在",
+    "pos": "v."
+  },
+  {
+    "word": "extra",
+    "definition_zh": "额外的；特别的；外加的",
+    "pos": "adj./adv."
+  },
+  {
+    "word": "faith",
+    "definition_zh": "信仰；信任",
+    "pos": "n."
+  },
+  {
+    "word": "false",
+    "definition_zh": "错误的；假的；伪造的",
+    "pos": "adj."
+  },
+  {
+    "word": "fault",
+    "definition_zh": "过错；故障；断层",
+    "pos": "n."
+  },
+  {
+    "word": "favor",
+    "definition_zh": "恩惠；偏爱；支持",
+    "pos": "n./v."
+  },
+  {
+    "word": "fence",
+    "definition_zh": "栅栏；围墙；击剑",
+    "pos": "n./v."
+  },
+  {
+    "word": "fewer",
+    "definition_zh": "较少的",
+    "pos": "adj."
+  },
+  {
+    "word": "fiber",
+    "definition_zh": "纤维；纤维物质",
+    "pos": "n."
+  },
+  {
+    "word": "field",
+    "definition_zh": "田地；领域；场地",
+    "pos": "n."
+  },
+  {
+    "word": "fifth",
+    "definition_zh": "第五",
+    "pos": "adj./n."
+  },
+  {
+    "word": "fifty",
+    "definition_zh": "五十",
+    "pos": "n."
+  },
+  {
+    "word": "fight",
+    "definition_zh": "打架；战斗；斗争",
+    "pos": "v./n."
+  },
+  {
+    "word": "final",
+    "definition_zh": "最后的；最终的；决定性的",
+    "pos": "adj./n."
+  },
+  {
+    "word": "first",
+    "definition_zh": "第一；最初的",
+    "pos": "adj./adv./n."
+  },
+  {
+    "word": "flame",
+    "definition_zh": "火焰；激情",
+    "pos": "n."
+  },
+  {
+    "word": "flesh",
+    "definition_zh": "肉；肉体",
+    "pos": "n."
+  },
+  {
+    "word": "float",
+    "definition_zh": "漂浮；浮动；漂流",
+    "pos": "v./n."
+  },
+  {
+    "word": "floor",
+    "definition_zh": "地板；楼层",
+    "pos": "n."
+  },
+  {
+    "word": "focus",
+    "definition_zh": "焦点；集中",
+    "pos": "n./v."
+  },
+  {
+    "word": "force",
+    "definition_zh": "力量；武力；强迫",
+    "pos": "n./v."
+  },
+  {
+    "word": "forth",
+    "definition_zh": "向前；向外；自…以后",
+    "pos": "adv./prep."
+  },
+  {
+    "word": "found",
+    "definition_zh": "建立；创办；铸造",
+    "pos": "v."
+  },
+  {
+    "word": "frame",
+    "definition_zh": "框架；结构；边框",
+    "pos": "n./v."
+  },
+  {
+    "word": "fresh",
+    "definition_zh": "新鲜的；清新的；新近的",
+    "pos": "adj."
+  },
+  {
+    "word": "front",
+    "definition_zh": "前面；正面；前线",
+    "pos": "n./adj./adv."
+  },
+  {
+    "word": "fruit",
+    "definition_zh": "水果；果实",
+    "pos": "n."
+  },
+  {
+    "word": "fully",
+    "definition_zh": "完全地，充分地",
+    "pos": "adv."
+  },
+  {
+    "word": "funny",
+    "definition_zh": "有趣的；滑稽的；奇怪的",
+    "pos": "adj."
+  },
+  {
+    "word": "ghost",
+    "definition_zh": "鬼；幽灵",
+    "pos": "n."
+  },
+  {
+    "word": "giant",
+    "definition_zh": "巨人；巨大的",
+    "pos": "n./adj."
+  },
+  {
+    "word": "given",
+    "definition_zh": "给定的；特定的；假设的",
+    "pos": "adj./conj."
+  },
+  {
+    "word": "glass",
+    "definition_zh": "玻璃；玻璃杯",
+    "pos": "n."
+  },
+  {
+    "word": "glove",
+    "definition_zh": "手套",
+    "pos": "n."
+  },
+  {
+    "word": "grade",
+    "definition_zh": "等级；年级；成绩",
+    "pos": "n."
+  },
+  {
+    "word": "grain",
+    "definition_zh": "谷物；颗粒；纹理",
+    "pos": "n."
+  },
+  {
+    "word": "grand",
+    "definition_zh": "宏伟的；豪华的；极好的",
+    "pos": "adj."
+  },
+  {
+    "word": "grant",
+    "definition_zh": "授予；拨款；承认",
+    "pos": "v./n."
+  },
+  {
+    "word": "grass",
+    "definition_zh": "草；草地",
+    "pos": "n."
+  },
+  {
+    "word": "grave",
+    "definition_zh": "坟墓；严重的",
+    "pos": "n./adj."
+  },
+  {
+    "word": "great",
+    "definition_zh": "伟大的；极好的；重要的",
+    "pos": "adj."
+  },
+  {
+    "word": "green",
+    "definition_zh": "绿色；绿色的",
+    "pos": "n./adj."
+  },
+  {
+    "word": "group",
+    "definition_zh": "组；团体；群",
+    "pos": "n."
+  },
+  {
+    "word": "guard",
+    "definition_zh": "守卫；看守；保护",
+    "pos": "v./n."
+  },
+  {
+    "word": "guess",
+    "definition_zh": "猜测；推测",
+    "pos": "v./n."
+  },
+  {
+    "word": "guest",
+    "definition_zh": "客人；宾客",
+    "pos": "n."
+  },
+  {
+    "word": "guide",
+    "definition_zh": "指导；指南；向导",
+    "pos": "v./n."
+  },
+  {
+    "word": "habit",
+    "definition_zh": "习惯；习性",
+    "pos": "n."
+  },
+  {
+    "word": "happy",
+    "definition_zh": "快乐的；幸福的",
+    "pos": "adj."
+  },
+  {
+    "word": "heart",
+    "definition_zh": "心脏；心；中心；核心",
+    "pos": "n."
+  },
+  {
+    "word": "heavy",
+    "definition_zh": "重的；沉重的；大量的；严重的",
+    "pos": "adj."
+  },
+  {
+    "word": "hello",
+    "definition_zh": "你好；喂",
+    "pos": "int./n."
+  },
+  {
+    "word": "honey",
+    "definition_zh": "蜂蜜；亲爱的",
+    "pos": "n./adj."
+  },
+  {
+    "word": "honor",
+    "definition_zh": "荣誉；尊敬",
+    "pos": "n./v."
+  },
+  {
+    "word": "horse",
+    "definition_zh": "马",
+    "pos": "n."
+  },
+  {
+    "word": "hotel",
+    "definition_zh": "酒店；旅馆",
     "pos": "n."
   },
   {
@@ -20,74 +975,284 @@
     "pos": "n."
   },
   {
+    "word": "human",
+    "definition_zh": "人类；人",
+    "pos": "n."
+  },
+  {
+    "word": "humor",
+    "definition_zh": "幽默；诙谐",
+    "pos": "n."
+  },
+  {
+    "word": "ideal",
+    "definition_zh": "理想的；完美的；观念；典范",
+    "pos": "adj./n."
+  },
+  {
+    "word": "image",
+    "definition_zh": "形象；图像；印象",
+    "pos": "n."
+  },
+  {
+    "word": "imply",
+    "definition_zh": "暗示；意味着",
+    "pos": "v."
+  },
+  {
+    "word": "index",
+    "definition_zh": "索引；指标；指数",
+    "pos": "n./v."
+  },
+  {
+    "word": "inner",
+    "definition_zh": "内部的；内心的",
+    "pos": "adj."
+  },
+  {
+    "word": "iraqi",
+    "definition_zh": "伊拉克的；伊拉克人",
+    "pos": "adj./n."
+  },
+  {
+    "word": "irish",
+    "definition_zh": "爱尔兰的；爱尔兰人；爱尔兰语",
+    "pos": "adj./n."
+  },
+  {
+    "word": "issue",
+    "definition_zh": "问题；发行；分发",
+    "pos": "n./v."
+  },
+  {
+    "word": "joint",
+    "definition_zh": "关节；连接处；共同的",
+    "pos": "n./adj."
+  },
+  {
+    "word": "judge",
+    "definition_zh": "法官；裁判；评判",
+    "pos": "n./v."
+  },
+  {
+    "word": "juice",
+    "definition_zh": "果汁",
+    "pos": "n."
+  },
+  {
+    "word": "knife",
+    "definition_zh": "刀",
+    "pos": "n."
+  },
+  {
+    "word": "knock",
+    "definition_zh": "敲击；敲门；碰撞",
+    "pos": "v./n."
+  },
+  {
+    "word": "label",
+    "definition_zh": "标签；标记；称号",
+    "pos": "n./v."
+  },
+  {
+    "word": "labor",
+    "definition_zh": "劳动；工作；劳工",
+    "pos": "n./v."
+  },
+  {
+    "word": "large",
+    "definition_zh": "大的；巨大的",
+    "pos": "adj."
+  },
+  {
+    "word": "later",
+    "definition_zh": "后来；稍后",
+    "pos": "adv."
+  },
+  {
+    "word": "latin",
+    "definition_zh": "拉丁的；拉丁语的；拉丁人",
+    "pos": "adj./n."
+  },
+  {
+    "word": "laugh",
+    "definition_zh": "笑；发笑",
+    "pos": "v./n."
+  },
+  {
+    "word": "layer",
+    "definition_zh": "层；层次；放置成层",
+    "pos": "n./v."
+  },
+  {
+    "word": "learn",
+    "definition_zh": "学习；学会；得知",
+    "pos": "v."
+  },
+  {
+    "word": "least",
+    "definition_zh": "最小的；最少的；最不重要的",
+    "pos": "adj./adv."
+  },
+  {
+    "word": "leave",
+    "definition_zh": "离开；留下；休假",
+    "pos": "v./n."
+  },
+  {
+    "word": "legal",
+    "definition_zh": "合法的；法律的",
+    "pos": "adj."
+  },
+  {
+    "word": "lemon",
+    "definition_zh": "柠檬",
+    "pos": "n."
+  },
+  {
+    "word": "level",
+    "definition_zh": "水平；等级；层",
+    "pos": "n./v./adj."
+  },
+  {
+    "word": "light",
+    "definition_zh": "光；轻的；点亮",
+    "pos": "n./adj./v."
+  },
+  {
+    "word": "limit",
+    "definition_zh": "限制；界限；极限",
+    "pos": "n./v."
+  },
+  {
+    "word": "local",
+    "definition_zh": "当地的；局部的",
+    "pos": "adj."
+  },
+  {
+    "word": "loose",
+    "definition_zh": "松的；宽松的；不牢固的",
+    "pos": "adj."
+  },
+  {
+    "word": "lover",
+    "definition_zh": "爱人；爱好者",
+    "pos": "n."
+  },
+  {
+    "word": "lower",
+    "definition_zh": "降低；下游的；下级的",
+    "pos": "v./adj."
+  },
+  {
+    "word": "lucky",
+    "definition_zh": "幸运的",
+    "pos": "adj."
+  },
+  {
+    "word": "lunch",
+    "definition_zh": "午餐",
+    "pos": "n."
+  },
+  {
+    "word": "major",
+    "definition_zh": "主要的；重要的；主修的；少校",
+    "pos": "adj./n."
+  },
+  {
+    "word": "maker",
+    "definition_zh": "制造者；创造者",
+    "pos": "n."
+  },
+  {
+    "word": "marry",
+    "definition_zh": "结婚；娶；嫁",
+    "pos": "v."
+  },
+  {
+    "word": "match",
+    "definition_zh": "比赛；火柴；相配",
+    "pos": "n./v."
+  },
+  {
+    "word": "maybe",
+    "definition_zh": "也许，可能",
+    "pos": "adv."
+  },
+  {
+    "word": "mayor",
+    "definition_zh": "市长",
+    "pos": "n."
+  },
+  {
+    "word": "media",
+    "definition_zh": "媒体；媒介",
+    "pos": "n."
+  },
+  {
+    "word": "metal",
+    "definition_zh": "金属",
+    "pos": "n."
+  },
+  {
+    "word": "meter",
+    "definition_zh": "米；计量器；韵律",
+    "pos": "n./v."
+  },
+  {
+    "word": "might",
+    "definition_zh": "可能；力量",
+    "pos": "aux./n."
+  },
+  {
+    "word": "minor",
+    "definition_zh": "较小的；次要的；未成年人",
+    "pos": "adj./n."
+  },
+  {
+    "word": "model",
+    "definition_zh": "模型；模特；模范",
+    "pos": "n./v."
+  },
+  {
+    "word": "money",
+    "definition_zh": "钱；货币",
+    "pos": "n."
+  },
+  {
+    "word": "month",
+    "definition_zh": "月，月份",
+    "pos": "n."
+  },
+  {
+    "word": "moral",
+    "definition_zh": "道德的；道德",
+    "pos": "adj./n."
+  },
+  {
+    "word": "motor",
+    "definition_zh": "马达；发动机",
+    "pos": "n."
+  },
+  {
+    "word": "mount",
+    "definition_zh": "登上；山峰；安装",
+    "pos": "v./n."
+  },
+  {
     "word": "mouse",
     "definition_zh": "老鼠；鼠标",
     "pos": "n."
   },
   {
-    "word": "watch",
-    "definition_zh": "观看；手表",
-    "pos": "v./n."
-  },
-  {
-    "word": "earth",
-    "definition_zh": "地球；泥土",
+    "word": "mouth",
+    "definition_zh": "嘴，口",
     "pos": "n."
   },
   {
-    "word": "bread",
-    "definition_zh": "面包",
+    "word": "movie",
+    "definition_zh": "电影",
     "pos": "n."
-  },
-  {
-    "word": "water",
-    "definition_zh": "水；浇水",
-    "pos": "n./v."
-  },
-  {
-    "word": "light",
-    "definition_zh": "光；灯；轻的",
-    "pos": "n./adj./v."
-  },
-  {
-    "word": "green",
-    "definition_zh": "绿色；环保的",
-    "pos": "adj./n."
-  },
-  {
-    "word": "happy",
-    "definition_zh": "快乐的；幸福的",
-    "pos": "adj."
-  },
-  {
-    "word": "study",
-    "definition_zh": "学习；研究",
-    "pos": "v./n."
-  },
-  {
-    "word": "plant",
-    "definition_zh": "植物；种植",
-    "pos": "n./v."
-  },
-  {
-    "word": "dream",
-    "definition_zh": "梦想；做梦",
-    "pos": "n./v."
-  },
-  {
-    "word": "grape",
-    "definition_zh": "葡萄",
-    "pos": "n."
-  },
-  {
-    "word": "fruit",
-    "definition_zh": "水果；果实",
-    "pos": "n."
-  },
-  {
-    "word": "sugar",
-    "definition_zh": "糖；甜的",
-    "pos": "n./adj."
   },
   {
     "word": "music",
@@ -95,233 +1260,1158 @@
     "pos": "n."
   },
   {
-    "word": "sound",
-    "definition_zh": "声音；健全的",
-    "pos": "n./adj./v."
+    "word": "naked",
+    "definition_zh": "裸体的；无遮盖的",
+    "pos": "adj."
   },
   {
-    "word": "voice",
-    "definition_zh": "声音；嗓音；表达",
-    "pos": "n./v."
-  },
-  {
-    "word": "field",
-    "definition_zh": "田地；领域",
+    "word": "nerve",
+    "definition_zh": "神经；勇气",
     "pos": "n."
   },
   {
-    "word": "world",
-    "definition_zh": "世界；全球",
-    "pos": "n."
+    "word": "never",
+    "definition_zh": "从不；绝不",
+    "pos": "adv."
   },
   {
-    "word": "heart",
-    "definition_zh": "心脏；心",
-    "pos": "n."
-  },
-  {
-    "word": "brain",
-    "definition_zh": "大脑；智力",
-    "pos": "n."
-  },
-  {
-    "word": "stone",
-    "definition_zh": "石头；宝石",
-    "pos": "n."
-  },
-  {
-    "word": "river",
-    "definition_zh": "河流；江",
-    "pos": "n."
-  },
-  {
-    "word": "ocean",
-    "definition_zh": "海洋；大量",
-    "pos": "n."
-  },
-  {
-    "word": "board",
-    "definition_zh": "木板；董事会；上船",
-    "pos": "n./v."
-  },
-  {
-    "word": "class",
-    "definition_zh": "班级；阶级；课程",
-    "pos": "n."
-  },
-  {
-    "word": "paper",
-    "definition_zh": "纸；论文；报纸",
-    "pos": "n."
-  },
-  {
-    "word": "story",
-    "definition_zh": "故事；小说；楼层",
-    "pos": "n."
+    "word": "newly",
+    "definition_zh": "新近，最近",
+    "pos": "adv."
   },
   {
     "word": "night",
-    "definition_zh": "夜晚；夜间",
+    "definition_zh": "夜晚；黑夜",
     "pos": "n."
   },
   {
-    "word": "month",
-    "definition_zh": "月；月份",
+    "word": "noise",
+    "definition_zh": "噪音；嘈杂声",
     "pos": "n."
   },
   {
-    "word": "money",
-    "definition_zh": "钱；金钱",
+    "word": "north",
+    "definition_zh": "北；北方",
+    "pos": "n./adj./adv."
+  },
+  {
+    "word": "novel",
+    "definition_zh": "小说；新颖的",
+    "pos": "n./adj."
+  },
+  {
+    "word": "nurse",
+    "definition_zh": "护士；照料",
+    "pos": "n./v."
+  },
+  {
+    "word": "occur",
+    "definition_zh": "发生；出现；存在",
+    "pos": "v."
+  },
+  {
+    "word": "ocean",
+    "definition_zh": "海洋",
+    "pos": "n."
+  },
+  {
+    "word": "offer",
+    "definition_zh": "提供；提议；报价",
+    "pos": "v./n."
+  },
+  {
+    "word": "often",
+    "definition_zh": "经常，常常",
+    "pos": "adv."
+  },
+  {
+    "word": "onion",
+    "definition_zh": "洋葱",
     "pos": "n."
   },
   {
     "word": "order",
-    "definition_zh": "顺序；命令；订购",
+    "definition_zh": "命令；顺序；订单",
     "pos": "n./v."
   },
   {
-    "word": "group",
-    "definition_zh": "组；群体；团体",
+    "word": "other",
+    "definition_zh": "其他的；另外的；另一个",
+    "pos": "adj./pron."
+  },
+  {
+    "word": "ought",
+    "definition_zh": "应该，应当",
+    "pos": "modal v."
+  },
+  {
+    "word": "owner",
+    "definition_zh": "所有者，物主",
+    "pos": "n."
+  },
+  {
+    "word": "paint",
+    "definition_zh": "油漆；绘画",
     "pos": "n./v."
   },
   {
-    "word": "space",
-    "definition_zh": "空间；宇宙；距离",
+    "word": "panel",
+    "definition_zh": "面板；专门小组；仪表盘",
     "pos": "n."
   },
   {
-    "word": "power",
-    "definition_zh": "力量；电力；权力",
+    "word": "paper",
+    "definition_zh": "纸；纸张；文件；论文",
     "pos": "n."
-  },
-  {
-    "word": "court",
-    "definition_zh": "法院；球场；宫廷",
-    "pos": "n."
-  },
-  {
-    "word": "level",
-    "definition_zh": "水平；级别；平的",
-    "pos": "n./adj./v."
-  },
-  {
-    "word": "child",
-    "definition_zh": "孩子；儿童",
-    "pos": "n."
-  },
-  {
-    "word": "adult",
-    "definition_zh": "成年人；成人的",
-    "pos": "n./adj."
-  },
-  {
-    "word": "woman",
-    "definition_zh": "女人；女性",
-    "pos": "n."
-  },
-  {
-    "word": "human",
-    "definition_zh": "人类；人的",
-    "pos": "n./adj."
   },
   {
     "word": "party",
-    "definition_zh": "聚会；派对；政党",
+    "definition_zh": "聚会；政党",
     "pos": "n."
   },
   {
-    "word": "state",
-    "definition_zh": "状态；州；国家",
+    "word": "patch",
+    "definition_zh": "补丁；修补；小块土地",
     "pos": "n./v."
+  },
+  {
+    "word": "pause",
+    "definition_zh": "暂停，中止",
+    "pos": "v./n."
+  },
+  {
+    "word": "peace",
+    "definition_zh": "和平；安宁",
+    "pos": "n."
+  },
+  {
+    "word": "phase",
+    "definition_zh": "阶段；相位",
+    "pos": "n."
+  },
+  {
+    "word": "phone",
+    "definition_zh": "电话；手机",
+    "pos": "n."
+  },
+  {
+    "word": "photo",
+    "definition_zh": "照片",
+    "pos": "n."
+  },
+  {
+    "word": "piano",
+    "definition_zh": "钢琴",
+    "pos": "n."
+  },
+  {
+    "word": "piece",
+    "definition_zh": "块；片；段；件；篇；首；幅；部分",
+    "pos": "n."
+  },
+  {
+    "word": "pilot",
+    "definition_zh": "飞行员；领航员；试验性的",
+    "pos": "n./adj."
+  },
+  {
+    "word": "pitch",
+    "definition_zh": "投掷；音高；推销；沥青",
+    "pos": "v./n."
+  },
+  {
+    "word": "place",
+    "definition_zh": "地方；放置",
+    "pos": "n./v."
+  },
+  {
+    "word": "plane",
+    "definition_zh": "飞机；平面；刨子",
+    "pos": "n./v."
+  },
+  {
+    "word": "plant",
+    "definition_zh": "植物；工厂；栽种",
+    "pos": "n./v."
+  },
+  {
+    "word": "plate",
+    "definition_zh": "盘子；板；金属牌",
+    "pos": "n."
+  },
+  {
+    "word": "point",
+    "definition_zh": "点；要点；尖端；分数；观点",
+    "pos": "n./v."
+  },
+  {
+    "word": "porch",
+    "definition_zh": "门廊；走廊",
+    "pos": "n."
+  },
+  {
+    "word": "pound",
+    "definition_zh": "磅；英镑；重击",
+    "pos": "n./v."
+  },
+  {
+    "word": "power",
+    "definition_zh": "力量；权力；电力",
+    "pos": "n."
+  },
+  {
+    "word": "press",
+    "definition_zh": "按压；新闻界；出版社",
+    "pos": "v./n."
+  },
+  {
+    "word": "price",
+    "definition_zh": "价格；代价",
+    "pos": "n."
+  },
+  {
+    "word": "pride",
+    "definition_zh": "自豪；骄傲",
+    "pos": "n."
+  },
+  {
+    "word": "prime",
+    "definition_zh": "首要的；最好的；基本的；素数",
+    "pos": "adj./n."
+  },
+  {
+    "word": "print",
+    "definition_zh": "印刷；打印；出版",
+    "pos": "v./n."
+  },
+  {
+    "word": "prior",
+    "definition_zh": "先前的；优先的",
+    "pos": "adj."
+  },
+  {
+    "word": "proof",
+    "definition_zh": "证明；证据；校样",
+    "pos": "n./v."
+  },
+  {
+    "word": "proud",
+    "definition_zh": "自豪的；骄傲的",
+    "pos": "adj."
+  },
+  {
+    "word": "prove",
+    "definition_zh": "证明；证实",
+    "pos": "v."
+  },
+  {
+    "word": "quick",
+    "definition_zh": "快的，迅速的",
+    "pos": "adj."
+  },
+  {
+    "word": "quiet",
+    "definition_zh": "安静的；寂静的",
+    "pos": "adj."
+  },
+  {
+    "word": "quite",
+    "definition_zh": "相当；完全；的确",
+    "pos": "adv."
+  },
+  {
+    "word": "quote",
+    "definition_zh": "引用；报价",
+    "pos": "v./n."
+  },
+  {
+    "word": "radio",
+    "definition_zh": "无线电；收音机",
+    "pos": "n."
+  },
+  {
+    "word": "raise",
+    "definition_zh": "提高；举起；养育；筹集",
+    "pos": "v./n."
+  },
+  {
+    "word": "range",
+    "definition_zh": "范围；山脉；一系列；射程",
+    "pos": "n./v."
+  },
+  {
+    "word": "rapid",
+    "definition_zh": "迅速的；快速的",
+    "pos": "adj."
+  },
+  {
+    "word": "ratio",
+    "definition_zh": "比率；比例",
+    "pos": "n."
+  },
+  {
+    "word": "reach",
+    "definition_zh": "到达；达到；伸出",
+    "pos": "v./n."
+  },
+  {
+    "word": "react",
+    "definition_zh": "反应；回应",
+    "pos": "v."
+  },
+  {
+    "word": "ready",
+    "definition_zh": "准备好的；现成的",
+    "pos": "adj."
+  },
+  {
+    "word": "refer",
+    "definition_zh": "提到；参考；涉及",
+    "pos": "v."
+  },
+  {
+    "word": "relax",
+    "definition_zh": "放松；休息",
+    "pos": "v."
+  },
+  {
+    "word": "reply",
+    "definition_zh": "回答；答复",
+    "pos": "v./n."
+  },
+  {
+    "word": "rifle",
+    "definition_zh": "步枪；来复枪",
+    "pos": "n."
+  },
+  {
+    "word": "right",
+    "definition_zh": "正确的；右边；权利",
+    "pos": "adj./n."
+  },
+  {
+    "word": "river",
+    "definition_zh": "河，河流",
+    "pos": "n."
+  },
+  {
+    "word": "rough",
+    "definition_zh": "粗糙的；粗略的；艰难的",
+    "pos": "adj."
+  },
+  {
+    "word": "round",
+    "definition_zh": "圆的；围绕；一轮",
+    "pos": "adj./prep./n."
+  },
+  {
+    "word": "route",
+    "definition_zh": "路线；途径",
+    "pos": "n./v."
+  },
+  {
+    "word": "rural",
+    "definition_zh": "农村的，乡村的",
+    "pos": "adj."
+  },
+  {
+    "word": "salad",
+    "definition_zh": "沙拉",
+    "pos": "n."
+  },
+  {
+    "word": "sales",
+    "definition_zh": "销售；销售额",
+    "pos": "n."
+  },
+  {
+    "word": "sauce",
+    "definition_zh": "酱汁；调味汁",
+    "pos": "n."
+  },
+  {
+    "word": "scale",
+    "definition_zh": "鳞片；规模；比例；刻度；天平",
+    "pos": "n./v."
+  },
+  {
+    "word": "scene",
+    "definition_zh": "场景；场面；景象",
+    "pos": "n."
+  },
+  {
+    "word": "scope",
+    "definition_zh": "范围；视野；机会",
+    "pos": "n."
+  },
+  {
+    "word": "score",
+    "definition_zh": "得分；分数；刻痕；二十",
+    "pos": "n./v."
+  },
+  {
+    "word": "seize",
+    "definition_zh": "抓住；夺取；没收",
+    "pos": "v."
   },
   {
     "word": "sense",
-    "definition_zh": "感觉；意义；理智",
+    "definition_zh": "感觉；感官；意识；意义",
     "pos": "n./v."
   },
   {
-    "word": "force",
-    "definition_zh": "力量；强迫；军队",
-    "pos": "n./v."
+    "word": "serve",
+    "definition_zh": "服务；供应；发球",
+    "pos": "v./n."
   },
   {
-    "word": "death",
-    "definition_zh": "死亡；死",
+    "word": "seven",
+    "definition_zh": "七",
     "pos": "n."
   },
   {
-    "word": "value",
-    "definition_zh": "价值；重视",
+    "word": "shade",
+    "definition_zh": "阴凉处；遮阳物；色调；细微差别",
     "pos": "n./v."
+  },
+  {
+    "word": "shake",
+    "definition_zh": "摇动；震动；颤抖",
+    "pos": "v./n."
+  },
+  {
+    "word": "shall",
+    "definition_zh": "将；必须；应",
+    "pos": "aux.v."
+  },
+  {
+    "word": "shape",
+    "definition_zh": "形状；外形；使成形",
+    "pos": "n./v."
+  },
+  {
+    "word": "share",
+    "definition_zh": "分享；股份",
+    "pos": "v./n."
+  },
+  {
+    "word": "sharp",
+    "definition_zh": "锋利的；尖锐的；敏锐的；急剧的",
+    "pos": "adj./adv./n."
+  },
+  {
+    "word": "sheet",
+    "definition_zh": "床单；纸张；薄片",
+    "pos": "n."
+  },
+  {
+    "word": "shelf",
+    "definition_zh": "架子；搁板",
+    "pos": "n."
+  },
+  {
+    "word": "shell",
+    "definition_zh": "壳；外壳；炮弹",
+    "pos": "n."
+  },
+  {
+    "word": "shift",
+    "definition_zh": "移动；改变；轮班",
+    "pos": "v./n."
+  },
+  {
+    "word": "shine",
+    "definition_zh": "发光；照耀",
+    "pos": "v."
+  },
+  {
+    "word": "shirt",
+    "definition_zh": "衬衫",
+    "pos": "n."
+  },
+  {
+    "word": "shock",
+    "definition_zh": "震惊；震动；休克",
+    "pos": "n./v."
+  },
+  {
+    "word": "shoot",
+    "definition_zh": "射击；拍摄；发芽",
+    "pos": "v./n."
+  },
+  {
+    "word": "shore",
+    "definition_zh": "岸；滨",
+    "pos": "n."
+  },
+  {
+    "word": "short",
+    "definition_zh": "短的；矮的；短暂的",
+    "pos": "adj."
+  },
+  {
+    "word": "shout",
+    "definition_zh": "喊叫；呼喊",
+    "pos": "v./n."
+  },
+  {
+    "word": "shrug",
+    "definition_zh": "耸肩",
+    "pos": "v./n."
+  },
+  {
+    "word": "sight",
+    "definition_zh": "视力；景象；看见",
+    "pos": "n./v."
+  },
+  {
+    "word": "since",
+    "definition_zh": "自从；因为",
+    "pos": "prep./conj."
+  },
+  {
+    "word": "skill",
+    "definition_zh": "技能，技巧",
+    "pos": "n."
+  },
+  {
+    "word": "slave",
+    "definition_zh": "奴隶",
+    "pos": "n."
+  },
+  {
+    "word": "sleep",
+    "definition_zh": "睡觉；睡眠",
+    "pos": "v./n."
+  },
+  {
+    "word": "slice",
+    "definition_zh": "薄片；切片；部分",
+    "pos": "n./v."
+  },
+  {
+    "word": "slide",
+    "definition_zh": "滑动；幻灯片；滑梯",
+    "pos": "v./n."
+  },
+  {
+    "word": "small",
+    "definition_zh": "小的；少的",
+    "pos": "adj."
+  },
+  {
+    "word": "smart",
+    "definition_zh": "聪明的；敏捷的；时髦的",
+    "pos": "adj."
+  },
+  {
+    "word": "smell",
+    "definition_zh": "气味；闻",
+    "pos": "n./v."
+  },
+  {
+    "word": "smile",
+    "definition_zh": "微笑",
+    "pos": "v./n."
+  },
+  {
+    "word": "smoke",
+    "definition_zh": "烟；吸烟",
+    "pos": "n./v."
+  },
+  {
+    "word": "solar",
+    "definition_zh": "太阳的；利用太阳能的",
+    "pos": "adj."
+  },
+  {
+    "word": "solid",
+    "definition_zh": "固体的；坚固的；可靠的",
+    "pos": "adj./n."
+  },
+  {
+    "word": "solve",
+    "definition_zh": "解决；解答",
+    "pos": "v."
+  },
+  {
+    "word": "sorry",
+    "definition_zh": "抱歉；遗憾",
+    "pos": "adj."
+  },
+  {
+    "word": "sound",
+    "definition_zh": "声音；听起来；健康的",
+    "pos": "n./v./adj."
+  },
+  {
+    "word": "south",
+    "definition_zh": "南；南方",
+    "pos": "n./adj."
+  },
+  {
+    "word": "space",
+    "definition_zh": "空间；太空；空隙",
+    "pos": "n."
+  },
+  {
+    "word": "speak",
+    "definition_zh": "说话；讲话",
+    "pos": "v."
+  },
+  {
+    "word": "speed",
+    "definition_zh": "速度；快速",
+    "pos": "n./v."
+  },
+  {
+    "word": "spend",
+    "definition_zh": "花费；消耗",
+    "pos": "v."
+  },
+  {
+    "word": "split",
+    "definition_zh": "分裂；分开；劈开",
+    "pos": "v./n."
+  },
+  {
+    "word": "sport",
+    "definition_zh": "运动；体育",
+    "pos": "n."
+  },
+  {
+    "word": "staff",
+    "definition_zh": "员工；棍棒；五线谱",
+    "pos": "n."
+  },
+  {
+    "word": "stage",
+    "definition_zh": "舞台；阶段；步骤",
+    "pos": "n."
+  },
+  {
+    "word": "stair",
+    "definition_zh": "楼梯",
+    "pos": "n."
+  },
+  {
+    "word": "stake",
+    "definition_zh": "桩；赌注；利害关系",
+    "pos": "n./v."
+  },
+  {
+    "word": "stand",
+    "definition_zh": "站立；忍受；位于",
+    "pos": "v./n."
+  },
+  {
+    "word": "stare",
+    "definition_zh": "凝视，盯着看",
+    "pos": "v."
+  },
+  {
+    "word": "start",
+    "definition_zh": "开始；启动；出发",
+    "pos": "v./n."
+  },
+  {
+    "word": "state",
+    "definition_zh": "状态；国家；州；陈述",
+    "pos": "n./v."
+  },
+  {
+    "word": "steal",
+    "definition_zh": "偷窃；窃取",
+    "pos": "v."
+  },
+  {
+    "word": "steel",
+    "definition_zh": "钢",
+    "pos": "n."
+  },
+  {
+    "word": "stick",
+    "definition_zh": "棍棒；粘贴；坚持",
+    "pos": "n./v."
+  },
+  {
+    "word": "still",
+    "definition_zh": "仍然；静止的",
+    "pos": "adv./adj."
+  },
+  {
+    "word": "stock",
+    "definition_zh": "股票；存货；库存；树干；家畜",
+    "pos": "n./v."
+  },
+  {
+    "word": "stone",
+    "definition_zh": "石头",
+    "pos": "n."
+  },
+  {
+    "word": "store",
+    "definition_zh": "商店；储存",
+    "pos": "n./v."
+  },
+  {
+    "word": "storm",
+    "definition_zh": "风暴；暴风雨；暴风雪",
+    "pos": "n."
+  },
+  {
+    "word": "story",
+    "definition_zh": "故事；叙述；新闻报道",
+    "pos": "n."
+  },
+  {
+    "word": "strip",
+    "definition_zh": "条；带；剥去；脱衣",
+    "pos": "n./v."
+  },
+  {
+    "word": "study",
+    "definition_zh": "学习；研究",
+    "pos": "v./n."
+  },
+  {
+    "word": "stuff",
+    "definition_zh": "东西；材料；填充",
+    "pos": "n./v."
+  },
+  {
+    "word": "style",
+    "definition_zh": "风格；方式；时尚",
+    "pos": "n./v."
+  },
+  {
+    "word": "sugar",
+    "definition_zh": "糖",
+    "pos": "n."
+  },
+  {
+    "word": "super",
+    "definition_zh": "超级的；极好的",
+    "pos": "adj."
+  },
+  {
+    "word": "swear",
+    "definition_zh": "未找到该单词的标准释义，可能是拼写错误或非标准词汇",
+    "pos": "未知"
+  },
+  {
+    "word": "sweep",
+    "definition_zh": "打扫；清扫；扫过",
+    "pos": "v./n."
+  },
+  {
+    "word": "sweet",
+    "definition_zh": "甜的；甜食；亲爱的",
+    "pos": "adj./n./n."
+  },
+  {
+    "word": "swing",
+    "definition_zh": "摇摆；秋千；摆动",
+    "pos": "v./n."
+  },
+  {
+    "word": "table",
+    "definition_zh": "桌子；表格",
+    "pos": "n."
+  },
+  {
+    "word": "taste",
+    "definition_zh": "味道；品尝；品味",
+    "pos": "n./v."
+  },
+  {
+    "word": "teach",
+    "definition_zh": "教，教授",
+    "pos": "v."
+  },
+  {
+    "word": "terms",
+    "definition_zh": "条款；术语；学期",
+    "pos": "n."
+  },
+  {
+    "word": "thank",
+    "definition_zh": "感谢",
+    "pos": "v./n."
+  },
+  {
+    "word": "their",
+    "definition_zh": "他们的；她们的；它们的",
+    "pos": "pron."
+  },
+  {
+    "word": "theme",
+    "definition_zh": "主题；题目",
+    "pos": "n."
+  },
+  {
+    "word": "there",
+    "definition_zh": "那里；在那里",
+    "pos": "adv./pron."
+  },
+  {
+    "word": "these",
+    "definition_zh": "这些",
+    "pos": "pron."
+  },
+  {
+    "word": "thick",
+    "definition_zh": "厚的；粗的；浓的",
+    "pos": "adj."
+  },
+  {
+    "word": "thing",
+    "definition_zh": "东西；事物",
+    "pos": "n."
+  },
+  {
+    "word": "think",
+    "definition_zh": "思考；认为",
+    "pos": "v."
+  },
+  {
+    "word": "third",
+    "definition_zh": "第三；三分之一",
+    "pos": "adj./n."
+  },
+  {
+    "word": "those",
+    "definition_zh": "那些",
+    "pos": "pron."
+  },
+  {
+    "word": "three",
+    "definition_zh": "三",
+    "pos": "num."
+  },
+  {
+    "word": "throw",
+    "definition_zh": "投掷；扔",
+    "pos": "v."
+  },
+  {
+    "word": "tight",
+    "definition_zh": "紧的；牢固的；严格的",
+    "pos": "adj."
+  },
+  {
+    "word": "tired",
+    "definition_zh": "疲劳的；疲倦的",
+    "pos": "adj."
+  },
+  {
+    "word": "title",
+    "definition_zh": "标题；头衔；冠军",
+    "pos": "n."
+  },
+  {
+    "word": "today",
+    "definition_zh": "今天",
+    "pos": "n."
+  },
+  {
+    "word": "tooth",
+    "definition_zh": "牙齿",
+    "pos": "n."
+  },
+  {
+    "word": "topic",
+    "definition_zh": "话题；主题",
+    "pos": "n."
+  },
+  {
+    "word": "total",
+    "definition_zh": "总数；全部的",
+    "pos": "n./adj."
+  },
+  {
+    "word": "touch",
+    "definition_zh": "触摸；接触；触动",
+    "pos": "v./n."
+  },
+  {
+    "word": "tough",
+    "definition_zh": "坚韧的；坚强的；粗暴的",
+    "pos": "adj."
+  },
+  {
+    "word": "tower",
+    "definition_zh": "塔；高楼",
+    "pos": "n."
+  },
+  {
+    "word": "trace",
+    "definition_zh": "痕迹；追踪",
+    "pos": "n./v."
+  },
+  {
+    "word": "track",
+    "definition_zh": "轨道；踪迹；跟踪",
+    "pos": "n./v."
+  },
+  {
+    "word": "trade",
+    "definition_zh": "贸易；交易；行业",
+    "pos": "n./v."
+  },
+  {
+    "word": "trail",
+    "definition_zh": "小径；踪迹；拖曳",
+    "pos": "n./v."
+  },
+  {
+    "word": "train",
+    "definition_zh": "火车；培训",
+    "pos": "n./v."
+  },
+  {
+    "word": "treat",
+    "definition_zh": "对待；治疗；款待",
+    "pos": "v./n."
+  },
+  {
+    "word": "trend",
+    "definition_zh": "趋势；倾向",
+    "pos": "n."
+  },
+  {
+    "word": "trial",
+    "definition_zh": "审判；试验；考验",
+    "pos": "n./v."
+  },
+  {
+    "word": "tribe",
+    "definition_zh": "部落；族；群",
+    "pos": "n."
+  },
+  {
+    "word": "trick",
+    "definition_zh": "诡计；把戏；窍门",
+    "pos": "n./v."
+  },
+  {
+    "word": "troop",
+    "definition_zh": "部队；一群",
+    "pos": "n."
+  },
+  {
+    "word": "truck",
+    "definition_zh": "卡车；货车",
+    "pos": "n."
+  },
+  {
+    "word": "truly",
+    "definition_zh": "真正地；确实地",
+    "pos": "adv."
+  },
+  {
+    "word": "trust",
+    "definition_zh": "信任；信赖",
+    "pos": "n./v."
+  },
+  {
+    "word": "truth",
+    "definition_zh": "真相；真理",
+    "pos": "n."
+  },
+  {
+    "word": "twice",
+    "definition_zh": "两次；两倍",
+    "pos": "adv."
+  },
+  {
+    "word": "uncle",
+    "definition_zh": "叔叔；伯父；舅父；姑父；姨父",
+    "pos": "n."
+  },
+  {
+    "word": "under",
+    "definition_zh": "在…下面；少于；在…情况下",
+    "pos": "prep./adv."
   },
   {
     "word": "union",
-    "definition_zh": "联盟；工会；结合",
+    "definition_zh": "联合；联盟；工会",
     "pos": "n."
   },
   {
-    "word": "image",
-    "definition_zh": "图像；形象；印象",
-    "pos": "n."
+    "word": "until",
+    "definition_zh": "直到...为止；在...之前",
+    "pos": "prep./conj."
   },
   {
-    "word": "album",
-    "definition_zh": "相册；专辑",
-    "pos": "n."
+    "word": "upper",
+    "definition_zh": "上面的；较高的",
+    "pos": "adj."
   },
   {
-    "word": "agent",
-    "definition_zh": "代理人；经纪人；间谍",
-    "pos": "n."
+    "word": "urban",
+    "definition_zh": "城市的；都市的",
+    "pos": "adj."
   },
   {
-    "word": "award",
-    "definition_zh": "奖励；奖品；授予",
+    "word": "usual",
+    "definition_zh": "通常的，平常的",
+    "pos": "adj."
+  },
+  {
+    "word": "value",
+    "definition_zh": "价值；重要性；价值观",
     "pos": "n./v."
   },
   {
-    "word": "blood",
-    "definition_zh": "血；血液；血统",
+    "word": "video",
+    "definition_zh": "视频；录像",
     "pos": "n."
   },
   {
-    "word": "brick",
-    "definition_zh": "砖；砖块",
+    "word": "virus",
+    "definition_zh": "病毒",
     "pos": "n."
   },
   {
-    "word": "cable",
-    "definition_zh": "电缆；缆绳；发电报",
-    "pos": "n./v."
+    "word": "visit",
+    "definition_zh": "访问；参观；游览",
+    "pos": "v./n."
   },
   {
-    "word": "chain",
-    "definition_zh": "链条；连锁；束缚",
-    "pos": "n./v."
+    "word": "vital",
+    "definition_zh": "至关重要的；有活力的",
+    "pos": "adj."
   },
   {
-    "word": "clock",
-    "definition_zh": "时钟；计时",
-    "pos": "n./v."
-  },
-  {
-    "word": "dance",
-    "definition_zh": "跳舞；舞蹈",
-    "pos": "n./v."
-  },
-  {
-    "word": "earth",
-    "definition_zh": "地球；泥土",
+    "word": "voice",
+    "definition_zh": "声音；嗓音；发言权",
     "pos": "n."
   },
   {
-    "word": "faith",
-    "definition_zh": "信仰；信任；忠诚",
+    "word": "voter",
+    "definition_zh": "投票人；选举人",
     "pos": "n."
   },
   {
-    "word": "flame",
-    "definition_zh": "火焰；热情",
+    "word": "waste",
+    "definition_zh": "浪费；废物",
+    "pos": "v./n."
+  },
+  {
+    "word": "watch",
+    "definition_zh": "观看；手表",
+    "pos": "v./n."
+  },
+  {
+    "word": "water",
+    "definition_zh": "水",
+    "pos": "n."
+  },
+  {
+    "word": "weigh",
+    "definition_zh": "称重；权衡",
+    "pos": "v."
+  },
+  {
+    "word": "wheel",
+    "definition_zh": "轮子；方向盘；旋转",
     "pos": "n./v."
+  },
+  {
+    "word": "where",
+    "definition_zh": "哪里；在何处",
+    "pos": "adv./conj."
+  },
+  {
+    "word": "which",
+    "definition_zh": "哪一个；哪一些",
+    "pos": "pron./adj."
+  },
+  {
+    "word": "while",
+    "definition_zh": "当…时；虽然；然而；一段时间",
+    "pos": "conj./n."
+  },
+  {
+    "word": "white",
+    "definition_zh": "白色的；白人；白色",
+    "pos": "adj./n."
+  },
+  {
+    "word": "whole",
+    "definition_zh": "全部的；完整的",
+    "pos": "adj."
+  },
+  {
+    "word": "whose",
+    "definition_zh": "谁的",
+    "pos": "pron."
+  },
+  {
+    "word": "woman",
+    "definition_zh": "女人；妇女",
+    "pos": "n."
+  },
+  {
+    "word": "works",
+    "definition_zh": "作品；工厂；运作",
+    "pos": "n./v."
+  },
+  {
+    "word": "world",
+    "definition_zh": "世界；地球；领域",
+    "pos": "n."
+  },
+  {
+    "word": "worry",
+    "definition_zh": "担心；忧虑",
+    "pos": "v./n."
+  },
+  {
+    "word": "worth",
+    "definition_zh": "值得；价值",
+    "pos": "adj./n."
+  },
+  {
+    "word": "would",
+    "definition_zh": "将；愿意；可能；总是",
+    "pos": "aux./v."
+  },
+  {
+    "word": "wound",
+    "definition_zh": "伤口；伤害",
+    "pos": "n./v."
+  },
+  {
+    "word": "write",
+    "definition_zh": "写；书写；写作",
+    "pos": "v."
+  },
+  {
+    "word": "wrong",
+    "definition_zh": "错误的；不正当的；不道德的",
+    "pos": "adj./n./v."
+  },
+  {
+    "word": "yield",
+    "definition_zh": "产量；屈服；收益",
+    "pos": "n./v."
+  },
+  {
+    "word": "young",
+    "definition_zh": "年轻的；幼小的",
+    "pos": "adj."
+  },
+  {
+    "word": "yours",
+    "definition_zh": "你的；你们的",
+    "pos": "pron."
+  },
+  {
+    "word": "youth",
+    "definition_zh": "青年；青春",
+    "pos": "n."
   }
-] 
+]
